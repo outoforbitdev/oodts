@@ -6,6 +6,7 @@ export function curryAndBind<T1, T2 extends unknown[]>(f: (arg0: T1, ...rest: T2
     return (...rest: T2) => bind(f, t)(a, ...rest);
 }
 
-export function bind(f: any, t: any) {
+type GenericFunction = (...rest: any[]) => any;
+export function bind(f: GenericFunction, t: any) {
     return f.bind(t)
 }
