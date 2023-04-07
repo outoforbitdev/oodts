@@ -1,6 +1,6 @@
 {
   "name": "oodts",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.57.1",
