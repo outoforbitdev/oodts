@@ -1,0 +1,10 @@
+./src
+./vscode
+./node_modules
+./eslintignore
+./eslintrc
+./gitignore
+./.prettierrc.json
+./tsconfig.json
+./webpack.config.js
+./yarn.lock
